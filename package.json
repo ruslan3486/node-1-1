@@ -1,0 +1,27 @@
+{
+  "name": "1-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslan3486/node-1-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslan3486/node-1-1/issues"
+  },
+  "homepage": "https://github.com/ruslan3486/node-1-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "yargs": "^17.3.0"
+  }
+}
