@@ -32,7 +32,7 @@ async function getContactById(contactId) {
         if (!contact)
             return console.error(`Contact with ID ${contactId} not found!`);
 
-        console.log(`Contact with ID ${contactId}:`);
+        console.log(`Contact with ID ${contactId}`);
         console.table(contact);
         return contact;
     } catch (error) {
@@ -55,7 +55,7 @@ async function removeContact(contactId) {
             'utf8',
         );
 
-        console.log('Contact deleted successfully! New list of contacts:');
+        console.log('Contact deleted successfully!');
         console.table(newContacts);
 
         return newContacts;
@@ -97,7 +97,7 @@ async function removeContact(contactId) {
             'utf8',
         );
 
-        console.log('Contact deleted successfully! New list of contacts:');
+        console.log('Contact deleted successfully!');
         console.table(newContacts);
 
         return newContacts;
